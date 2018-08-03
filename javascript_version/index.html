@@ -4,7 +4,11 @@
     HOME
 </title>
     <link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
+  $(function(){
+    $("#include_header").load("header.html"); 
+  });
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -35,7 +39,8 @@ function showSlides(n) {
 </head>
 <body>
     <div class="content">
-        <?php include("header.php"); ?>
+        <div id="include_header"></div>
+
         <div class="slideshow">
             <div class="vidcontainer">
             <video width="750px" class="centerVideo" preload="auto" controls autoplay>
@@ -108,7 +113,7 @@ function showSlides(n) {
             </div>
         
         </div>
-        <?php include("footer.php"); ?>
+        <!-- <?php include("footer.php"); ?> -->
     </div>
 </body>
 </html>
