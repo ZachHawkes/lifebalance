@@ -25,7 +25,7 @@ export default class Home extends Component {
                 {/* <p>
                     It’s like trying to run a race.  Imagine you are at the starting line of a great race.  You are excited. You can’t wait to see how you will do.  The starting gun goes off and you begin to run.  But you look down and see a heavy ball and chain hooked to your ankle.  You can still move forward but you are so slow.  And it is so hard!  The ball and chain is like the energy imbalances and blocks that you have.  Once we remove those, it makes it easy to move forward, to make better choices, to reach your goals and for your body to heal itself. 
                 </p> */}
-                <p>Energy Work can address:</p>
+                <p className="secondContent-list">Energy Work can address:</p>
                 <ul className="secondContent-list">
                     <li>Improved Sleep</li>
                     <li>Weight Release</li>

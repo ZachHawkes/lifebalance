@@ -35,7 +35,7 @@ export default class About extends Component {
             <p>
                 I am Emotion Code certified and trained in 5 Keystones for Health and Divine Laws by Kimberly Watts.
             </p>
-            <img src={family} className="family-img"/>
+            <img src={family} className="family-img" alt="family"/>
           </div>
         </div>
     );

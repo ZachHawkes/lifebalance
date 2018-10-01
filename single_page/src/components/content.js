@@ -2,6 +2,7 @@
 // maybe some individual components.
 import React, { Component } from "react"
 import Home from "./home"
+import About from "./about"
 // import About from "./components/about"
 
 export default class Content extends Component {
@@ -17,11 +18,19 @@ export default class Content extends Component {
   }
 
   render(){
-    return(
-      <div>
-        <Home />
-      </div>
-    );
+    if(this.state.currentPage === "home"){
+      return(
+        <div>
+          <Home />
+        </div>
+      );
+    } else if (this.state.currentPage === "about"){
+      return(
+        <div>
+          <About />
+        </div>
+      );
+    }
   }
 }
 
