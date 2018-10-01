@@ -255,5 +255,29 @@ h3 {
 
 @media (max-width: 450px ){
     /* put the alt nav bar styles here  */
-    
+    .slideshow-container {
+        display: none;
+    }
+    .thirdContent {
+        height: auto;
+        margin-top: 20px;
+    }
+    .secondContent-list{
+        display:none;
+    }
+    .links{
+        display: none;
+    }
+    .mobileLinks{
+        display: none;
+        list-style-type: none;
+    }
+    .mobileLinks li {
+      /* display: inline; */
+        padding-right: 13px;
+        border-left: solid;
+        border-left-width: 1px;
+        padding-left: 13px;
+        margin-top: 10px;
+    }
 }

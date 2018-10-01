@@ -56,7 +56,7 @@ function showSlides(n) {
                     It’s like trying to run a race.  Imagine you are at the starting line of a great race.  You are excited. You can’t wait to see how you will do.  The starting gun goes off and you begin to run.  But you look down and see a heavy ball and chain hooked to your ankle.  You can still move forward but you are so slow.  And it is so hard!  The ball and chain is like the energy imbalances and blocks that you have.  Once we remove those, it makes it easy to move forward, to make better choices, to reach your goals and for your body to heal itself. 
                 </p>
                 <p style="margin: 0px; padding: 0px;">Energy Work can address:</p>
-                <ul style="display: inline-block;">
+                <ul style="display: inline-block;" class="secondContent-list">
                     <li>Improved Sleep</li>
                     <li>Weight Release</li>
                     <li>Overcoming Fears</li>
@@ -64,7 +64,7 @@ function showSlides(n) {
                     <li>Relationship Issues</li>
                     <li>Financial Blocks</li>
                 </ul>
-                <ul style="display: inline-block;">
+                <ul style="display: inline-block;" class="secondContent-list">
                     <li>Business Success and Relationships</li>
                     <li>Forgiveness for yourself and others</li>
                     <li>Mental Health Challenges</li>
